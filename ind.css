@@ -1,0 +1,209 @@
+body {
+  background: #CDF0EA;
+  margin: 0;
+  text-align: center;
+}
+
+.container {
+  font-family: 'Dancing Script', cursive;
+  text-align: center;
+  position: relative;
+  height: 924px;
+}
+
+h1 {
+  margin: 0;
+  position: absolute;
+  top: 272px;
+  left: 576px;
+  font-size: 50px;
+}
+
+.cloud1 {
+  height: 200px;
+  width: 320px;
+  position: absolute;
+  right: 250px;
+  top: 74px;
+}
+
+.cloud2 {
+  height: 200px;
+  width: 300px;
+  position: absolute;
+  left: 300px;
+  top: 354px;
+}
+
+.mount {
+  height: 450px;
+  width: 877px;
+  position: absolute;
+  bottom: 0;
+  top: 500px;
+  left: 378px;
+}
+
+h1:hover {
+  color: green;
+}
+
+.intrp p:hover {
+  color: green;
+}
+
+hr {
+  border-style: dotted none none;
+  color: grey;
+  width: 100px;
+  border-width: 6px;
+}
+
+.icon1 {
+  height: 50px;
+  width: 50px;
+  padding-top: 12px;
+}
+
+.skill {
+  position: relative;
+  height: 500px;
+  width: 100%;
+}
+
+.skill1 {
+  border-radius: 24px;
+  /* background: #B5EAEA; */
+  position: absolute;
+  border: 3px solid;
+  margin: 4px;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 300px;
+  left: 100px;
+  bottom: 0;
+  padding: 24px;
+}
+
+.skill2 {
+  border-radius: 24px;
+  /* background: #B5EAEA; */
+  position: absolute;
+  border: 3px solid;
+  margin: 4px;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 300px;
+  left: 575px;
+  bottom: 0px;
+  padding: 24px;
+}
+
+.skill3 {
+  border-radius: 24px;
+  /* background: #B5EAEA; */
+  position: absolute;
+  border: 3px solid ;
+  margin: 4px;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 300px;
+  left: 1004px;
+  bottom: 0;
+  padding: 24px;
+}
+
+.skill1:hover {
+  background: #B5EAEA;
+}
+
+.skill2:hover {
+  background: #B5EAEA;
+}
+
+.skill3:hover {
+  background: #B5EAEA;
+}
+
+.navbar {
+  position: relative;
+  height: 54px;
+  width: 100%;
+  background: #F7DAD9;
+  top: -16px;
+}
+
+.li1 {
+  position: absolute;
+  right: 200px;
+  top: 17px;
+  list-style-type: none;
+}
+
+.li1 a {
+  padding: 24px;
+  text-decoration: none;
+  font-size: 17px;
+  ;
+  color: black;
+}
+.act:active{
+  color: green;
+}
+
+.ul1 {
+  background: #F7DAD9;
+}
+
+.nav {
+  position: fixed;
+  width: 100%;
+  z-index: +1;
+}
+.foot{
+  height:290px;
+  width:100%;
+  background: #444444;
+  position: relative;
+}
+.foot1{
+  position: absolute;
+    border: 3px solid white;
+    height: 178px;
+    width: 322px;
+    bottom: 74px;
+    left: 118px;
+    color: white;
+
+}
+.foot2{
+  position: absolute;
+  border: 3px solid white;
+  height: 178px;
+  width: 322px;
+  bottom: 74px;
+  left: 571px;
+  color:white;
+
+
+}
+.foot3{
+  position: absolute;
+  border: 3px solid white;
+  height: 178px;
+  width: 322px;
+  bottom: 74px;
+  left: 1017px;
+  color:white;
+}
+.copy{
+  color: white;
+  font-size: 16px;
+  position: absolute;
+  bottom: 0px;
+  left:573px;
+
+}
